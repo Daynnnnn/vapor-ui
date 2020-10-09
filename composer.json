@@ -1,15 +1,15 @@
 {
-    "name": "laravel/vapor-ui",
+    "name": "daynnnnn/vapor-ui",
     "description": "The Laravel Vapor UI.",
     "keywords": [
         "laravel",
         "vapor"
     ],
-    "homepage": "https://github.com/laravel/vapor-ui",
+    "homepage": "https://github.com/daynnnnn/vapor-ui",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/vapor-ui/issues",
-        "source": "https://github.com/laravel/vapor-ui"
+        "issues": "https://github.com/daynnnnn/vapor-ui/issues",
+        "source": "https://github.com/daynnnnn/vapor-ui"
     },
     "authors": [
         {
@@ -19,6 +19,10 @@
         {
             "name": "Nuno Maduro",
             "email": "enunomaduro@gmail.com"
+        },
+        {
+            "name": "Dan Pegg",
+            "email": "dan@parall.ax"
         }
     ],
     "require": {

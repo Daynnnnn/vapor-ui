@@ -119,10 +119,11 @@ class LogsRepository
         $vaporUi = config('vapor-ui');
 
         return sprintf(
-            '/aws/lambda/vapor-%s-%s%s',
+            '/aws/lambda/%s-%s-%s-%s',
             $vaporUi['project'],
+            $vaporUi['branch'],
             $vaporUi['environment'],
-            in_array($group, ['cli', 'queue']) ? "-$group" : ''
+            $group
         );
     }
 

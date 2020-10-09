@@ -11,7 +11,7 @@ return [
 
     // Vapor Project / CloudWatch Log Group
     'project' => env('APP', ''),
-    'project' => env('BRANCH', ''),
+    'branch' => env('BRANCH', ''),
     'environment' => env('ENVIRONMENT', ''),
 
     // SQS Queue

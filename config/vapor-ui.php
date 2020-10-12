@@ -3,6 +3,7 @@
 use Laravel\VaporUi\Http\Middleware\EnsureEnvironmentVariables;
 use Laravel\VaporUi\Http\Middleware\EnsureUpToDateAssets;
 use Laravel\VaporUi\Http\Middleware\EnsureUserIsAuthorized;
+use Laravel\VaporUi\Http\Middleware\HttpBasicAuth;
 
 return [
 
@@ -22,6 +23,7 @@ return [
         EnsureUserIsAuthorized::class,
         EnsureEnvironmentVariables::class,
         EnsureUpToDateAssets::class,
+        HttpBasicAuth::class
     ],
 
 ];

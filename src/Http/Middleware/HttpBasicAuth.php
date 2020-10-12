@@ -3,6 +3,7 @@
 namespace Laravel\VaporUi\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\Http;
 
 class HttpBasicAuth
 {
